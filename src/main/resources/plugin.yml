@@ -1,0 +1,13 @@
+name: MandoPlugin
+main: org.mando.HubRespawnPlugin
+version: 1.5.1
+api-version: 1.13
+authors: [Mando]
+description: Ein Plugin, das Spieler beim Beitritt ins Hub teleportiert und ein Spielzeit-Top-5-Feature bietet.
+commands:
+  leaderboard:
+    description: Zeigt die Top 5 Spieler nach Spielzeit
+    usage: /leaderboard
+  flight:
+    description: Ein Befehl zum De/Aktivieren des Fliegens
+    usage: /flight
